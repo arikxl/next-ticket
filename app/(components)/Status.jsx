@@ -1,7 +1,6 @@
 
 const Status = ({ status }) => {
 
-
   const getColor = (status) => {
     let color = 'bg-slate-700';
     switch (status) {

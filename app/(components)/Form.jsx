@@ -1,9 +1,7 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-
-
+import { useRouter } from 'next/navigation'
 
 const Form = ({ ticket }) => {
 
@@ -65,7 +63,6 @@ const Form = ({ ticket }) => {
                 throw new Error('Failed to create ticket.')
             }
         }
-
         router.refresh();
         router.push('/')
     }

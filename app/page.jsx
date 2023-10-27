@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import TicketCard from './(components)/TicketCard'
+import TicketCard from './(components)/TicketCard';
 
 const getTickets = async () => {
   try {
